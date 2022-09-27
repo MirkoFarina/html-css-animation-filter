@@ -87,3 +87,36 @@
 .ex-5-square:active {
     transform: scale(0.4);
 }
+
+/* SESTA SOLUZIONE */
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/* SETTIMA SOLUZIONE */
+.ex-7-img {
+    transition: all 1s;
+}
+
+.ex-7-img:hover {
+    filter: sepia(.5) grayscale(.5);
+}
+
+/* OTTAVA SOLUZIONE */
+.ex-8-img {
+    transition: all 1s;
+}
+.ex-8-img:hover {
+    border-radius: 20px;
+    filter: grayscale(.5) sepia(.5);
+}
+
+/* NONA SOLUZIONE */
+.ex-9-img {
+    transition: all 1.5s;
+}
+.ex-9-img:hover {
+    border-radius: 20px;
+    filter: grayscale(.5) sepia(.5);
+    transform: scale(1.4);
+}
